@@ -249,9 +249,9 @@ async function handleRequest(request, env, ctx) {
 class Handler {
     constructor(db, options) {
         this.version = 'v2.2.6'
-        this.build = '2025-12-03 10:47:17'
+        this.build = '2025-12-03 10:51:22'
         this.arch = 'js'
-        this.commit = '86fa3cbea263776c2cda237b2ccf7cf0c5af810f'
+        this.commit = '18d1037eab7a2310f595cfd31ea49b444f6133f2'
         this.allowNewDevice = options.allowNewDevice
         this.allowQueryNums = options.allowQueryNums
         
@@ -420,7 +420,7 @@ class Handler {
 
             const group = parameters.group || undefined
             const call = parameters.call || undefined
-            const isArchive = parameters.isArchive || undefined
+            const isArchive = parameters.isarchive || undefined
             const icon = parameters.icon || undefined
             const ciphertext = parameters.ciphertext || undefined
             const level = parameters.level || undefined
